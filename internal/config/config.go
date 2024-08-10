@@ -24,7 +24,7 @@ type HTTPServer struct {
 
 
 func MustLoad() *Config {
-	configPath := "/Users/hello/Desktop/go-url-shortener/config/local.yaml"
+	configPath := "./config/local.yaml"
 
 	if configPath == "" {
 		log.Fatal("CONFIG_PATH is not set")
