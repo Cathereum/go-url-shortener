@@ -28,7 +28,9 @@ func main() {
 		os.Exit(1)
 	}
 
-	_ = storage
+
+
+
 
 }
 
